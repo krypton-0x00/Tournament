@@ -11,12 +11,12 @@ namespace Tournament.Core.Entities{
         public DateOnly StartDate { get; set; }
         public DateTime RegistrationOpenDate { get; set; }
         public DateTime RegistrationCloseDate {get;set;}
-        public int max_teams {get;set;}
-        public int current_teams_count { get;set;}
-        public TournamentStatus status { get; set; }
-        public TournamentVisibility visibility {get;set;}
+        public int max_teams {get;set;} = 25;
+        public int current_teams_count { get;set;} = 0;
+        public TournamentStatus status { get; set; } = TournamentStatus.Upcoming;
+        public TournamentVisibility visibility {get;set;} = TournamentVisibility.Private;
         public int TotalPrize {get;set;}
-        public int RegistrationFee {get;set;} 
+        public int RegistrationFee {get;set;} = 0;
         
         public  ICollection<TeamEntity>? Teams {get;set;}
 

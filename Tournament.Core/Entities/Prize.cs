@@ -11,8 +11,5 @@ public class PrizeEntity
     public Guid? TournamentId {get;set;} //FK
     [ForeignKey("TournamentId")]
     public TournamentEntity? Tournament {get;set;} //Navigation PRop
-
-
-    
-
+ 
 }

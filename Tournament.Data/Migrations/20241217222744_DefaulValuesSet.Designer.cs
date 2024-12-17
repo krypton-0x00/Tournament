@@ -12,8 +12,8 @@ using Tournament.Data;
 namespace Tournament.Data.Migrations
 {
     [DbContext(typeof(TournamentDbContext))]
-    [Migration("20241217080118_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20241217222744_DefaulValuesSet")]
+    partial class DefaulValuesSet
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
