@@ -8,6 +8,6 @@ public interface ITournamentService
     Task CreateTournamentAsync(TournamentEntity tournament);
     Task AddTeamToTournamentAsync(Guid tournamentId, TeamEntity player);
 
-    Task RemoveTeamFromTournamentAsync(Guid teamId,Guid tournamentId)
+    Task RemoveTeamFromTournamentAsync(Guid teamId,Guid tournamentId);
     Task DeleteTournamentAsync(Guid id);
 }

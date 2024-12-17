@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4bVGl2/bxf6aa/GHeVgW7Vy4dLSpk2YtVRzZSTUWNSWSzH4HZV6yGp2HxTJJCx2s1hfDzuAH5RLolxUk6Vazqw==",
+  "dgSpecHash": "HJ+jGDBVEmo=",
   "success": true,
   "projectFilePath": "/home/nesu/learning/Csharp/Tournament/Tournament.Core/Tournament.Core.csproj",
-  "expectedPackageFiles": [
-    "/home/nesu/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.10/microsoft.aspnetcore.app.ref.8.0.10.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
