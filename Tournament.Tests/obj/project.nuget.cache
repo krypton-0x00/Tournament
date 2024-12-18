@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8a+xgJ8KOYo=",
+  "dgSpecHash": "UpQ8gbR/N7Pa+Ng01UsW9doPW2pvwZe52tO7tbNS+kZyKH4Bc0r7J2fl8TwmWZP3L6eOoc4STW2tkMvbkpyeIA==",
   "success": true,
   "projectFilePath": "/home/nesu/learning/Csharp/Tournament/Tournament.Tests/Tournament.Tests.csproj",
   "expectedPackageFiles": [
@@ -92,7 +92,8 @@
     "/home/nesu/.nuget/packages/xunit.core/2.5.3/xunit.core.2.5.3.nupkg.sha512",
     "/home/nesu/.nuget/packages/xunit.extensibility.core/2.5.3/xunit.extensibility.core.2.5.3.nupkg.sha512",
     "/home/nesu/.nuget/packages/xunit.extensibility.execution/2.5.3/xunit.extensibility.execution.2.5.3.nupkg.sha512",
-    "/home/nesu/.nuget/packages/xunit.runner.visualstudio/2.5.3/xunit.runner.visualstudio.2.5.3.nupkg.sha512"
+    "/home/nesu/.nuget/packages/xunit.runner.visualstudio/2.5.3/xunit.runner.visualstudio.2.5.3.nupkg.sha512",
+    "/home/nesu/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.10/microsoft.aspnetcore.app.ref.8.0.10.nupkg.sha512"
   ],
   "logs": []
 }

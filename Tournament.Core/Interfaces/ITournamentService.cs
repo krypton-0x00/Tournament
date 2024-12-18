@@ -10,4 +10,5 @@ public interface ITournamentService
 
     Task RemoveTeamFromTournamentAsync(Guid teamId,Guid tournamentId);
     Task DeleteTournamentAsync(Guid id);
+    Task UpdataTournamentAsync(TournamentEntity tournament);
 }

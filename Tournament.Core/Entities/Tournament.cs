@@ -8,7 +8,7 @@ namespace Tournament.Core.Entities{
         public string Description { get; set; } = "";
         public string BannerLink { get; set; } = "";
         public string OrganizationId { get; set; } = "";
-        public DateOnly StartDate { get; set; }
+        public DateTime StartDate { get; set; }
         public DateTime RegistrationOpenDate { get; set; }
         public DateTime RegistrationCloseDate {get;set;}
         public int max_teams {get;set;} = 25;
